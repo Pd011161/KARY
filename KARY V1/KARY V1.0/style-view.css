@@ -1,0 +1,43 @@
+/* BUTTON */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    /* min-height: 100vh; */
+    /* background: #350048; */
+    background: #000;
+}
+
+table{
+    color: white;
+    margin: 10px;
+}
+
+.labs h3, .labr h3{ 
+    background: #ceff1e;
+    color: black;
+    border: 3px dotted;
+    box-shadow: 0 0 5px #ceff1e,
+    0 0 5px #ceff1e,
+    0 0 10px  #ceff1e,
+    0 0 30px  #ceff1e;
+    margin-bottom: 10px;
+}
+
+.labs input , .labr input , .labs textarea, .labr textarea{
+    background:#1eff45;
+    color: black;
+    border: 1px solid #1eff45;
+    box-shadow: 0 0 5px #1eff45,
+    0 0 5px #1eff45,
+    0 0 10px #1eff45,
+    0 0 30px #1eff45;
+    margin-bottom: 8px;
+}
